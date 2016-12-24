@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:elevation="10dp">
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:elevation="2dp"
+        android:onClick="onBackClick"
+         />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="@string/registartion_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.Toolbar>

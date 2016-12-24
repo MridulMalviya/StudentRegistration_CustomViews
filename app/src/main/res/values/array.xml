@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name">
+        <item>Prafulla Malviya</item>
+        <item>Aditya Malviya</item>
+        <item>Amisha Malviya</item>
+        <item>Ankur Malviya</item>
+        <item>mridul Malviya</item>
+    </string-array>
+    <integer-array name="age">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </integer-array>
+    <string-array name="branch">
+        <item>CS</item>
+        <item>ET</item>
+        <item>Mech</item>
+        <item>EE&amp;T</item>
+        <item>Chemical</item>
+    </string-array>
+
+    <integer-array name="marks">
+        <item>109</item>
+        <item>270</item>
+        <item>360</item>
+        <item>404</item>
+        <item>530</item>
+    </integer-array>
+    <string-array name="course">
+        <item>eCS</item>
+        <item>dET</item>
+        <item>fMech</item>
+        <item>dEE&amp;T</item>
+        <item>ssChemical</item>
+    </string-array>
+    <string-array name="grade">
+        <item>A++</item>
+        <item>B++</item>
+        <item>C++</item>
+        <item>D++</item>
+        <item>A++++</item>
+    </string-array>
+    <string-array name="strength">
+        <item>Goof</item>
+        <item>sgs</item>
+        <item>fdgz</item>
+        <item>dEzdhesgjtE&amp;T</item>
+        <item>dfsdhdnh</item>
+    </string-array>
+</resources>
