@@ -138,27 +138,5 @@ public class Dashboard extends AppCompatActivity implements View.OnLongClickList
         selection_list.clear();
     }
 
-    @Override
-    public void onBackPressed() {
-        exitDialog();
-    }
 
-    private void exitDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Are you sure you want to exit?")
-                .setCancelable(false)
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        Dashboard.this.finish();
-                    }
-                })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        dialog.cancel();
-                    }
-                });
-
-        AlertDialog alert = builder.create();
-        alert.show();
-    }
 }
